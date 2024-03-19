@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+:root {
+  --cor-primaria: #5d15d1;
+  --cinza-claro-fundo: #eaeaea;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--cinza-claro-fundo);
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1024px;
+  margin: auto;
+}
+
+@media screen and (min-width: 514px) and (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+}
